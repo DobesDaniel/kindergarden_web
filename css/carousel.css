@@ -1,0 +1,72 @@
+/* CAROUSEL CARDS start */
+div#cards .carousel-container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+div#cards .carousel-slide {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 100px;
+    
+}
+
+div#cards .carousel-slide img {
+    width: 170px;
+    height: 230px;
+    border-radius: 8px;
+    margin: 5px;
+    
+    object-fit: cover;
+    object-position: center;
+}
+
+div#cards .carousel-slide .img-border {
+    width: 180px;
+    height: 240px;
+    border-radius: 8px;
+    margin: 5px;
+    background-color: #744e2e;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* CAROUSEL CARDS end */
+
+/* CAROUSEL RULES start */
+div#rules .carousel-container {
+    width: 400px;
+    /*width: 60%;*/
+    margin: 0 auto;
+}
+
+div#rules .carousel-slide {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 100px;
+    
+}
+
+div#rules .carousel-slide img {
+    width: 170px;
+    height: 230px;
+    border-radius: 8px;
+    margin: 5px;
+    
+    object-fit: cover;
+    object-position: center;
+}
+
+div#rules .carousel-slide .img-border {
+    width: 180px;
+    height: 240px;
+    border-radius: 8px;
+    /*margin: 5px;*/
+    background-color: #744e2e;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* CAROUSEL RULES end */

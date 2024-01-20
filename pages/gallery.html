@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Dobeš">
+    <title>Mateřská škola Slunečnice</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP end -->
+
+    <!-- CSS start -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/page_specific_style.css" rel="stylesheet">
+    <link href="../css/overlay.css" rel="stylesheet">
+    <link href="../css/gallery.css" rel="stylesheet">
+    <!-- CSS end -->
+
+</head>
+
+<body>
+
+    <!-- HEADER start -->
+    <header>
+        <nav>
+            <h1 id="website_title">Mateřská škola Slunečnice</h1>
+            <ul>
+                <li><a href="./index.html">ÚVOD</a></li>
+                <li><a href="./about.html">O NÁS</a></li>
+                <li><a href="./gallery.html">GALERIE</a></li>
+                <li><a href="./sunflower.html">DĚTSKÁ SLUNEČNICE</a></li>
+                <li><a href="./documents.html">DOKUMENTY</a></li>
+                <li><a href="./employees.html">ZAMĚSTNANCI</a></li>
+                <li><a href="./contact.html">KONTAKT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HEADER end -->
+
+    <wrapper class="main-wrapper">
+        <main>
+            <div><h2 id="gallery-title">Galerie</h2></div>
+            <div id="gallery" class="row"></div>
+            
+            <br><br><br>
+        </main>
+    </wrapper>
+
+    <!--
+    <div class="overlay" id="overlay">
+        <img id="overlay-img" alt="Overlay Image">
+        <div class="overlay-title" id="overlay-title"></div>
+        <div class="img_title" id="overlay-title"></div>
+        <div class="img_description" id="overlay-description"></div>
+    </div>-->
+    <div class="overlay" id="overlay">
+        <div class="overlay-nav" id="overlay-prev" onclick="navigateOverlay('prev')"><img src="../resources/left-arrow.png"></div>
+        <img id="overlay-img" alt="Overlay Image">
+        <div class="overlay-nav" id="overlay-next" onclick="navigateOverlay('next')"><img src="../resources/right-arrow.png"></div>
+        <div class="overlay-title" id="overlay-title"></div>
+        <div class="img_title" id="overlay-title"></div>
+        <div class="img_description" id="overlay-description"></div>
+    </div>
+
+    <!-- FOOTER start -->
+    <footer>
+        <div>
+            <a href="./index.html"><img src="../resources/logos/logo_ms_slunecnice.png" alt="Logo 1"></a>
+            <a href="./sunflower.html"><img src="../resources/logos/logo_detska_slunecnice.png" alt="Logo 2"></a>
+            <a href="http://celeceskoctedetem.cz/"><img src="../resources/logos/logo_cele_cesko_cte_detem.png" alt="Logo 3"></a>
+            </div>
+    </footer>
+    <!-- FOOTER end -->
+
+    <!-- SCRIPTS -->
+    <script src="../scripts/images.js"></script>
+    <script src="../scripts/overlay.js"></script>
+    <script src="../scripts/gallery.js"></script>
+    <!-- SCRIPTS end -->
+
+</body>
+
+</html>

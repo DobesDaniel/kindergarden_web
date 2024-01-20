@@ -1,0 +1,127 @@
+/* GENERAL VIEW start */
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #fefae0;
+    
+    background-image: url('../resources/sunflower.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*background-size: auto;*/
+}
+
+.main-wrapper {
+    backdrop-filter: blur(10px);
+}
+/* GENERAL VIEW end */   
+
+/* PAGE CONTENT start */
+main {
+    min-height: 100vh;
+    margin-left: 25%;
+    max-width: 50%;
+    padding-top: 120px; /* header height*/
+    
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+main div{
+    width: 80%;
+    margin: 10px 10% 0 10%;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+table tr:hover {
+    
+    /*background-color: rgba(248, 238, 179, 0.5);*/
+    border-bottom: 2px solid #5E330E;
+    border-bottom: 2px solid black;
+}
+
+/* PAGE CONTENT end */
+
+/* HEADER start */
+header {
+    background-color: #659F32;
+    /*background-color: rgb(101,159,50,0.9);*/
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    z-index: 1000;
+    display: block;
+    
+    border-bottom: 1px solid #5E330E;
+}
+
+
+h1#website_title {
+    font-size: 32px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+nav {
+    height: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #5E330E;
+    /*
+    text-decoration: underline;
+    text-decoration-color: #5E330E;
+    */
+}
+/* HEADER end*/
+
+
+
+/* FOOTER start */
+footer {
+    background-color: #659F32;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    /*position: fixed*/
+    height: 80px;
+    bottom: 0;
+    z-index: 1000;
+    display: block;
+    
+    border-top: 1px solid #5E330E;
+}
+
+footer img {
+    height: 60px;
+    margin: 10px 15px;
+}
+/* FOOTER end */
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Dobeš">
+    <title>Mateřská škola Slunečnice</title>
+    
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP end -->
+
+    <!-- CSS start -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/page_specific_style.css" rel="stylesheet">
+    <link href="./css/overlay.css" rel="stylesheet">
+    <link href="./css/carousel.css" rel="stylesheet">
+    <!-- CSS end -->
+
+</head>
+
+<body>
+
+    <!-- HEADER start -->
+    <header>
+        <h1 id="website_title">Mateřská škola Slunečnice</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="./pages/index.html">ÚVOD</a></li>
+                <li><a href="./pages/about.html">O NÁS</a></li>
+                <li><a href="./pages/gallery.html">GALERIE</a></li>
+                <li><a href="./pages/sunflower.html">DĚTSKÁ SLUNEČNICE</a></li>
+                <li><a href="./pages/documents.html">DOKUMENTY</a></li>
+                <li><a href="./pages/employees.html">ZAMĚSTNANCI</a></li>
+                <li><a href="./pages/contact.html">KONTAKT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HEADER end -->
+    <wrapper class="main-wrapper">
+    <main>
+        
+        <div id="welcome">
+            <h2>Vítejte</h2>
+            <p>
+                Jsme vesnická mateřská škola, která se nachází v obci Povrly – Roztoky. Jsme v dojezdové vzdálenosti pro krajské město Ústí nad Labem. Naší chloubou jsou nově zmodernizované prostory MŠ. Jsme trojtřídní mateřská škola s celkovou kapacitou 72 dětí. Zakládáme si na vztahu člověka s přírodou a vztahu rodiny s MŠ.
+            </p>                
+        </div>
+        
+        <!-- IMG -->
+        <div id="kindergarden_image">
+            <img src="./resources/content_images/kindergarden_image.png" alt="Carousel Image">
+        </div>
+
+        <div id="motto">
+            <p>
+                <i>
+                    Rostu, rosteš, rosteme, <br>
+                    Společně to zvládneme. <br>
+                    Rosteme jak slunečnice <br>
+                    s každým dnem zas více a více.<br>
+                </i>
+            </p>
+        </div>
+        
+        <div id="rules">
+            <h2> Pravidla </h2>
+                <!-- Carousel Container -->
+                <div class="carousel-container">
+                    <!-- Slide 1 -->
+                    <div class="carousel-slide">
+                        <div class="img-border"><img src="./resources/rules/ucho.jpg" alt="Image 1" data-slide-index="1"></div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-slide">
+                        <div class="img-border"><img src="./resources/rules/hracky.jpg" alt="Image 3"></div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-slide">
+                        <div class="img-border"><img src="./resources/rules/postel.jpg" alt="Image 5"></div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="carousel-slide">
+                        <div class="img-border"><img src="./resources/rules/snek.jpg" alt="Image 7"></div>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="carousel-slide">
+                        <div class="img-border"><img src="./resources/rules/srdce.jpg" alt="Image 9"></div>
+                    </div>
+
+                </div>
+                <br>
+        </div>
+        
+    </main>
+    </wrapper>
+
+    <div class="overlay" id="overlay">
+        <img id="overlay-img" alt="Overlay Image">
+        <div class="overlay-title" id="overlay-title"></div>
+        <div class="img_title" id="overlay-title"></div>
+        <div class="img_description" id="overlay-description"></div>
+    </div>
+
+    <!-- FOOTER start -->
+    <footer>
+        <div>
+            <a href="./pages/index.html"><img src="./resources/logos/logo_ms_slunecnice.png" alt="Logo 1"></a>
+            <a href="./pages/sunflower.html"><img src="./resources/logos/logo_detska_slunecnice.png" alt="Logo 2"></a>
+            <a href="http://celeceskoctedetem.cz/"><img src="./resources/logos/logo_cele_cesko_cte_detem.png" alt="Logo 3"></a>
+            </div>
+    </footer>
+    <!-- FOOTER end -->
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="./scripts/overlay.js"></script>
+    <script src="./scripts/carousel.js"></script>
+    <!-- SCRIPTS end -->
+
+</body>
+
+</html>

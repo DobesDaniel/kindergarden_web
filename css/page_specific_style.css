@@ -1,0 +1,134 @@
+
+
+/* SPECIFIC STYLES start */
+
+div#motto {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 0;
+}
+
+div#welcome {
+    font-size: 16px;
+    line-height: 1.5;
+}   
+
+div#kindergarden_image {
+    margin: 0 10% 0 10%;
+    object-fit: cover;
+    object-position: center;
+    width: 80%;
+}
+
+div#kindergarden_image img {
+    max-width: 100%;
+    margin: 0;
+}
+
+
+div#about p::after {
+    display: inline-block;
+}
+
+div#info table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 5px 0%;
+}
+
+
+div#documents ul {
+    margin-left: 5%;
+}
+
+
+div#documents a {
+    text-decoration: underline;
+    color: black;
+    font-size: 16px;
+    
+}
+
+div#documents a:hover{
+    text-decoration: none;
+}
+
+
+
+div#hours, div#contact {
+    padding-bottom: 0px;
+}
+div#hours table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 5px 10% 0 10%;
+}
+
+div#contact table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 5px 10% 0 10%;
+}
+
+div#map p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+div#map iframe{
+    width: 100%;
+    height: 500px;
+}
+
+
+div#employees table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 5px 10% 0 10%;
+    
+}
+
+div#sunflower table {
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+div#sunflower table td {
+    height: 30px;
+}
+
+.last-col {text-align: right;}
+
+.first-col {width: 100px;}
+.second-col { width: 250px;}
+.third-col {}
+
+div#sunflower ul {
+    margin-left: 10px;
+}
+
+div#sunflower div {    
+    text-align: center;
+}
+
+div#sunflower div img {
+    margin: 0px;
+    margin-bottom: 30px;
+    width: 100px;    
+}
+
+
+div#cards {
+    width: 100%;
+    margin: 0;
+}
+
+div#rules h2{
+    margin-bottom: 0;
+}
+
+
+
+/* SPECIFIC STYLES end */
+

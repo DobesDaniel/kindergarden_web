@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Dobeš">
+    <title>Mateřská škola Slunečnice</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP end -->
+
+    <!-- CSS start -->
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/page_specific_style.css" rel="stylesheet">
+    <link href="../css/overlay.css" rel="stylesheet">
+    <!-- CSS end -->
+
+</head>
+
+<body>
+
+    <!-- HEADER start -->
+    <header>
+        <h1 id="website_title">Mateřská škola Slunečnice</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="./index.html">ÚVOD</a></li>
+                <li><a href="./about.html">O NÁS</a></li>
+                <li><a href="./gallery.html">GALERIE</a></li>
+                <li><a href="./sunflower.html">DĚTSKÁ SLUNEČNICE</a></li>
+                <li><a href="./documents.html">DOKUMENTY</a></li>
+                <li><a href="./employees.html">ZAMĚSTNANCI</a></li>
+                <li><a href="./contact.html">KONTAKT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HEADER end -->
+
+    <wrapper class="main-wrapper">
+        <main>
+            <div id="hours">
+                <h2>Provozní hodiny</h2>
+                <table>
+                    <tr>
+                        <td>PROVOZNÍ DOBA MŠ</td> <td>Po - Pá</td> <td class="last-col">6:00 - 17:00</td>
+                    </tr>
+                    <tr>
+                        <td>PROVOZNÍ DOBA BAZÉNU</td> <td> So - Ne </td> <td class="last-col">8:00 - 18:00</td>
+                    </tr>
+                </table>
+                
+            </div>
+
+            <div id="contact">
+                <h2>Kontakt</h2>
+                <table>
+                    <tr><td>PANÍ ŘEDITELKA RADKA PAZDERNÍKOVÁ</td> <td class="last-col">+420 517 652 892</td></tr>
+                    <tr> <td>ŠKOLNÍ JÍDELNA</td> <td class="last-col">+420 830 209 298 </td></tr>
+                    <tr><td><br></td></tr>
+                    <tr> <td>TŘÍDA SEMÍNKA </td> <td class="last-col"> +420 728 198 187 </td> </tr>
+                    <tr> <td>TŘÍDA KVĚTINÁČE </td> <td class="last-col"> +420 917 628 152 </td> </tr>
+                    <tr> <td>TŘÍDA SLUNEČNICE </td> <td class="last-col"> +420 762 725 917 </td></tr>
+
+                </table>
+            </div>
+
+            <div id="map">
+                <h2>Adresa</h2>
+                <p>Mateřská Škola Slunečnice, Ústí nad Labem, Povrly 32, příspěvková organizace</p>
+                <iframe style="border:none" src="https://en.frame.mapy.cz/s/legosanaga" frameborder="0"></iframe>
+                <!--https://mapy.cz/zakladni?l=1&q=%20%C3%9Ast%C3%AD%20nad%20Labem%2C%20Povrly%2032&source=addr&id=9970629&ds=2&x=14.1862409&y=50.6868066&z=16-->
+            </div>
+            <br><br><br>
+        </main>
+    <wrapper class="main-wrapper">
+
+    <div class="overlay" id="overlay">
+        <img id="overlay-img" alt="Overlay Image">
+        <div class="overlay-title" id="overlay-title"></div>
+        <div class="img_title" id="overlay-title"></div>
+        <div class="img_description" id="overlay-description"></div>
+    </div>
+
+    <!-- FOOTER start -->
+    <footer>
+        <div>
+            <a href="./index.html"><img src="../resources/logos/logo_ms_slunecnice.png" alt="Logo 1"></a>
+            <a href="./sunflower.html"><img src="../resources/logos/logo_detska_slunecnice.png" alt="Logo 2"></a>
+            <a href="http://celeceskoctedetem.cz/"><img src="../resources/logos/logo_cele_cesko_cte_detem.png" alt="Logo 3"></a>
+        </div>
+    </footer>
+    <!-- FOOTER end -->
+
+    <!-- SCRIPTS -->
+    <script src="../scripts/overlay.js"></script>
+    <!-- SCRIPTS end -->
+
+</body>
+
+</html>
