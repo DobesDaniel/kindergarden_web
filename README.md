@@ -1,7 +1,7 @@
 
 # Mateřská škola Slunečnice
 - **Author:** Daniel Dobeš
-- **Website:** [materska-skola-slunecnice]((https://dobesdaniel.github.io/kindergarden_web/))
+- **Website:** [materska-skola-slunecnice](https://dobesdaniel.github.io/kindergarden_web/)
 
 ## Description
 
